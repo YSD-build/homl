@@ -17,7 +17,7 @@ BIN_DIR = INSTALL_PREFIX / "bin"
 BIN_DIR.mkdir(exist_ok=True)
 
 # 默认索引 URL（替换为你的 R2 公共 URL）
-INDEX_URL = "https://pub-xxxxxxxxxxxxx.r2.dev/index.yaml"
+INDEX_URL = "https://homl-repo.froggitcraft.top/index.yaml"
 
 def update_index():
     """下载最新的 index.yaml 到缓存"""
